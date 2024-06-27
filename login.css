@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 50px;
+    background-image:url(https://tntsports.com.ar/__export/1713133381383/sites/tntsports/img/2024/04/14/lionel-messi-argentina-mundial.jpg);
+    background-size: 1400px;
+    background-position: -200px -10px;
+    
+    
+}
+
+
+h1{
+    color: rgba(255, 255, 255, 0.747);
+    max-width: 10%;
+    position: absolute;
+    right: 40vw;
+    top: 0vh;
+    font-size: 110px;
+    line-height: 150px;
+    padding: 10px;
+    
+}
+
+
+
+.total-field{
+    position: absolute;
+    
+
+    
+}
+
+.field-content{
+    border-radius: 50px;
+    border-color: rgba(54, 54, 66, 0.623);
+    background-color: rgba(44, 44, 44, 0.527);
+}
+
+
+.field-title{
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(227, 227, 230, 0.774);
+}
+
+.form{
+    padding: 30px;
+
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border:0px solid rgba(197, 197, 197, 0.363) ;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    border-radius: 0px;
+    padding: 0px 15px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.397);
+    outline: none;
+    transition: width 1s;
+}
+
+input:focus{
+    width: 370px;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(50, 104, 184);
+    box-sizing: content-box;
+    width: 50%;
+}
+
+a:hover{
+    color: rgb(45, 45, 168);
+}
+
+.button{
+    position: relative;
+    left: 30%;
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 30px;
+    transition:background-color 1s ;
+    color: rgba(255, 255, 255, 0.541);
+    
+}
+
+.button:hover{
+    color:white;
+    background-color: rgba(35, 81, 150, 0.795);
+    border-color:rgba(0, 0, 0, 0) ;
+}
